@@ -8,12 +8,7 @@
 <h3 align="center">AI Engineer</h3>
 
 <p align="center">
-  LLM agents and RAG systems that answer from real data<br />
-  and say so when the answer isn't there.
-</p>
-
-<p align="center">
-  <sub><samp>langgraph &nbsp;·&nbsp; rag &nbsp;·&nbsp; computer vision &nbsp;·&nbsp; open source</samp></sub>
+  <img src="./assets/stack.svg" alt="Agents: LangGraph, LangChain, RAG, Chroma, Hugging Face. Vision: YOLO, OpenCV, SIFT / ORB, Kalman Filter. Languages: Python, C#, SQL. Serving: FastAPI, Streamlit, Docker." width="100%" />
 </p>
 
 <p align="center">
@@ -57,20 +52,3 @@
 
 - **Computer vision:** [Face Mask Detection (CNN)](https://github.com/Emrecangok/Face-Mask-Detection-Classsifier-using-CNN) · [Traffic Sign Recognition (CNN)](https://github.com/Emrecangok/Traffic-Signs-Recognition-with-CNN) · [Color Detection (OpenCV)](https://github.com/Emrecangok/detecting-color-with-python-opencv)
 - **Algorithms:** [Euclidean Algorithm (C)](https://github.com/Emrecangok/Euclidean-Algorithm)
-
-### 🛠️ Stack
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C#">
-  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain">
-  <img src="https://img.shields.io/badge/Chroma-00854A?style=flat-square" alt="Chroma">
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/YOLO-111F68?style=flat-square" alt="YOLO">
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
-</p>
