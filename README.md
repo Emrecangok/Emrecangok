@@ -6,10 +6,6 @@
 </p>
 
 <p align="center">
-  <img src="./assets/stack.svg" alt="Agents: LangGraph, LangChain, RAG, Chroma, Hugging Face. Vision: YOLO, OpenCV, SIFT / ORB, Kalman Filter. Languages: Python, C#, SQL. Serving: FastAPI, Streamlit, Docker." width="100%" />
-</p>
-
-<p align="center">
   <a href="https://www.linkedin.com/in/emrecan-g%C3%B6k-864b80248/"><img src="https://img.shields.io/badge/LinkedIn-Emrecan%20G%C3%B6k-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:gokemrecan1@gmail.com"><img src="https://img.shields.io/badge/Email-gokemrecan1%40gmail.com-0B1310?style=flat-square&logo=gmail&logoColor=3DDC84" alt="Email"></a>
 </p>
@@ -50,3 +46,7 @@
 
 - **Computer vision:** [Face Mask Detection (CNN)](https://github.com/Emrecangok/Face-Mask-Detection-Classsifier-using-CNN) · [Traffic Sign Recognition (CNN)](https://github.com/Emrecangok/Traffic-Signs-Recognition-with-CNN) · [Color Detection (OpenCV)](https://github.com/Emrecangok/detecting-color-with-python-opencv)
 - **Algorithms:** [Euclidean Algorithm (C)](https://github.com/Emrecangok/Euclidean-Algorithm)
+
+### 🛠️ Stack
+
+<img src="./assets/stack.svg" alt="Agents: LangGraph, LangChain, RAG, Chroma, Hugging Face. Vision: YOLO, OpenCV, SIFT / ORB, Kalman Filter. Languages: Python, C#, SQL. Serving: FastAPI, Streamlit, Docker." width="600" />
