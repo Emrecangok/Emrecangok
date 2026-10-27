@@ -45,8 +45,6 @@
 ### 🌱 Earlier projects
 
 - **Computer vision:** [Face Mask Detection (CNN)](https://github.com/Emrecangok/Face-Mask-Detection-Classsifier-using-CNN) · [Traffic Sign Recognition (CNN)](https://github.com/Emrecangok/Traffic-Signs-Recognition-with-CNN) · [Color Detection (OpenCV)](https://github.com/Emrecangok/detecting-color-with-python-opencv)
-- **Algorithms:** [Euclidean Algorithm (C)](https://github.com/Emrecangok/Euclidean-Algorithm)
-
 ### 🛠️ Stack
 
-<img src="./assets/stack.svg" alt="Agents: LangGraph, LangChain, RAG, Chroma, Hugging Face. Vision: YOLO, OpenCV, SIFT / ORB, Kalman Filter. Languages: Python, C#, SQL. Serving: FastAPI, Streamlit, Docker." width="600" />
+<img src="./assets/stack.svg" alt="Agents and RAG: LangGraph, LangChain, RAG, Chroma, Hugging Face. Computer vision: YOLO, OpenCV, SIFT / ORB, Kalman Filter. Languages: Python, C#, SQL. Serving and tools: FastAPI, Streamlit, Docker." width="100%" />
