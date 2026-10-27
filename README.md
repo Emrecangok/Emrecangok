@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(max-width: 600px)" srcset="./assets/banner-mobile.svg" />
-    <img src="./assets/banner.svg" alt="Emrecan Gök, AI Engineer. LLM agents, RAG and computer vision." width="100%" />
+    <img src="./assets/banner.svg" alt="Hello, world. Emrecan Gök, AI Engineer. A small robot inside a ring of agent states." width="100%" />
   </picture>
 </p>
 

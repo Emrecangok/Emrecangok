@@ -1,34 +1,103 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="Emrecan Gök, AI Engineer: LLM agents, RAG and computer vision">
-  <title>Emrecan Gök, AI Engineer: LLM agents, RAG and computer vision</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" role="img" aria-labelledby="title description">
+  <title id="title">Emrecan Gök, AI Engineer</title>
+  <desc id="description">Hello, world. Emrecan Gök, AI Engineer, building LLM agents, RAG pipelines and computer vision systems. A small robot with glowing eyes.</desc>
   <defs>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#14211C" stroke-width="1"/>
+      <path d="M32 0H0V32" fill="none" stroke="#13201B" stroke-width="1"/>
     </pattern>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#16C172" stop-opacity="0.25"/>
-      <stop offset="1" stop-color="#16C172" stop-opacity="0"/>
-    </radialGradient>
-    <clipPath id="card"><rect width="600" height="300" rx="20"/></clipPath>
+    <linearGradient id="titleFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3DDC84"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <linearGradient id="headFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3FAF6"/>
+      <stop offset="1" stop-color="#CFE0D7"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="type0"><rect x="40" y="56" height="22" width="0">
+      <animate attributeName="width" begin="0.3s" dur="0.91s" fill="freeze" calcMode="discrete"
+               values="0;12;24;36;48;60;72;84;96;108;120;132;144"/>
+    </rect></clipPath>
+    <clipPath id="type2"><rect x="40" y="160" height="32" width="0">
+      <animate attributeName="width" begin="1.9s" dur="0.96s" fill="freeze" calcMode="discrete"
+               values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4"/>
+    </rect></clipPath>
+    <clipPath id="card"><rect width="600" height="340" rx="18"/></clipPath>
     <style>
-      .sans { font-family: "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
       .mono { font-family: Consolas, "SF Mono", Menlo, "DejaVu Sans Mono", monospace; }
+      .fade { opacity: 0; animation: fadeIn .7s ease-out forwards; }
       .pulse { animation: pulse 2s ease-in-out infinite; }
-      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
-      @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .2; } }
+      @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+      @media (prefers-reduced-motion: reduce) {
+        .pulse { animation: none; }
+        .fade { animation: none; opacity: 1; }
+      }
     </style>
   </defs>
 
   <g clip-path="url(#card)">
-    <rect width="600" height="300" fill="#0B1310"/>
-    <rect width="600" height="300" fill="url(#grid)"/>
-    <ellipse cx="300" cy="150" rx="320" ry="180" fill="url(#glow)"/>
+    <rect width="600" height="340" fill="#0A110E"/>
+    <rect width="600" height="340" fill="url(#grid)"/>
+    <circle cx="560" cy="10" r="130" fill="#3DDC84" fill-opacity=".07"/>
+    <circle cx="10" cy="350" r="100" fill="#2DD4BF" fill-opacity=".06"/>
 
-    <g class="mono" text-anchor="middle">
-      <circle class="pulse" cx="232" cy="78" r="5" fill="#3DDC84"/>
-      <text x="306" y="83" fill="#3DDC84" font-size="16">~/emrecangok</text>
+    <text class="mono" x="40" y="72" fill="#3DDC84" font-size="15" font-weight="600" textLength="144" lengthAdjust="spacing" clip-path="url(#type0)">HELLO, WORLD</text>
+    <text class="sans fade" style="animation-delay: 1.2s" x="37" y="138" fill="#EEF6F1" font-size="46" font-weight="700" letter-spacing="-1.5">Emrecan Gök</text>
+    <text class="mono" x="40" y="184" fill="url(#titleFill)" font-size="24" font-weight="700" textLength="158.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#type2)">AI Engineer</text>
+    <rect y="164" width="11" height="24" fill="#3DDC84" visibility="hidden">
+      <set attributeName="visibility" to="visible" begin="1.9s"/>
+      <animate attributeName="x" begin="1.9s" dur="0.96s" fill="freeze" calcMode="discrete"
+               values="42;56.4;70.8;85.2;99.6;114;128.4;142.8;157.2;171.6;186;200.4"/>
+      <animate attributeName="opacity" begin="2.9s" dur="1s" repeatCount="indefinite" calcMode="discrete"
+               values="1;0" keyTimes="0;0.5"/>
+    </rect>
+
+    <g class="sans fade" style="animation-delay: 3s">
+      <text x="40" y="228" fill="#A9BDB3" font-size="16">I build LLM agents, RAG pipelines</text>
+      <text x="40" y="250" fill="#A9BDB3" font-size="16">and computer vision systems.</text>
     </g>
-    <text class="sans" x="300" y="148" fill="#E8F2EC" font-size="52" font-weight="700" text-anchor="middle">Emrecan Gök</text>
-    <text class="sans" x="300" y="188" fill="#A9BDB3" font-size="24" font-weight="500" text-anchor="middle">AI Engineer</text>
-    <text class="mono" x="300" y="230" fill="#7F948A" font-size="15" text-anchor="middle">LLM agents · RAG · computer vision</text>
+
+    <g class="mono fade" font-size="12" style="animation-delay: 3.5s">
+      <rect x="40" y="274" width="96" height="28" rx="14" fill="#0F1915" stroke="#2B3D35"/>
+      <circle class="pulse" cx="56" cy="288" r="3.5" fill="#3DDC84"/>
+      <text x="66" y="292" fill="#C9DAD1">LangGraph</text>
+      <rect x="144" y="274" width="62" height="28" rx="14" fill="#0F1915" stroke="#2B3D35"/>
+      <circle class="pulse" cx="160" cy="288" r="3.5" fill="#2DD4BF"/>
+      <text x="170" y="292" fill="#C9DAD1">RAG</text>
+      <rect x="214" y="274" width="138" height="28" rx="14" fill="#0F1915" stroke="#2B3D35"/>
+      <circle class="pulse" cx="230" cy="288" r="3.5" fill="#F5B342"/>
+      <text x="240" y="292" fill="#C9DAD1">Computer Vision</text>
+    </g>
+
+    <!-- robot mascot, scaled down from the desktop banner -->
+    <g transform="translate(478 150) scale(.82) translate(-920 -210)">
+      <ellipse cx="920" cy="266" rx="42" ry="6" fill="#000" fill-opacity=".35"/>
+      <g>
+        <animateTransform attributeName="transform" type="translate" dur="3s" repeatCount="indefinite" values="0 0;0 -7;0 0"/>
+        <line x1="920" y1="160" x2="920" y2="140" stroke="#CFE0D7" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="920" cy="135" r="7" fill="#3DDC84" filter="url(#soft)">
+          <animate attributeName="fill-opacity" dur="1.6s" repeatCount="indefinite" values="1;.25;1"/>
+        </circle>
+        <rect x="851" y="188" width="16" height="38" rx="8" fill="#2DD4BF"/>
+        <rect x="973" y="188" width="16" height="38" rx="8" fill="#2DD4BF"/>
+        <rect x="862" y="158" width="116" height="96" rx="32" fill="url(#headFill)"/>
+        <rect x="862" y="246" width="116" height="8" rx="4" fill="#B7CCC1" fill-opacity=".6"/>
+        <rect x="875" y="176" width="90" height="54" rx="24" fill="#0B1310"/>
+        <g fill="#3DDC84" filter="url(#soft)">
+          <ellipse cx="901" cy="200" rx="7" ry="10">
+            <animate attributeName="ry" dur="4s" repeatCount="indefinite" values="10;10;1;10;10" keyTimes="0;0.88;0.92;0.96;1"/>
+          </ellipse>
+          <ellipse cx="939" cy="200" rx="7" ry="10">
+            <animate attributeName="ry" dur="4s" repeatCount="indefinite" values="10;10;1;10;10" keyTimes="0;0.88;0.92;0.96;1"/>
+          </ellipse>
+        </g>
+        <path d="M911 216Q920 223 929 216" fill="none" stroke="#3DDC84" stroke-width="2.5" stroke-linecap="round"/>
+      </g>
+    </g>
   </g>
 </svg>
