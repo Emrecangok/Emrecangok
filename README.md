@@ -5,8 +5,6 @@
   </picture>
 </p>
 
-<h3 align="center">AI Engineer</h3>
-
 <p align="center">
   <img src="./assets/stack.svg" alt="Agents: LangGraph, LangChain, RAG, Chroma, Hugging Face. Vision: YOLO, OpenCV, SIFT / ORB, Kalman Filter. Languages: Python, C#, SQL. Serving: FastAPI, Streamlit, Docker." width="100%" />
 </p>
